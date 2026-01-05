@@ -125,9 +125,9 @@
 
         ARROW {
             bindings = <
-&trans      &kp GRAVE      &kp LS(N4)  &kp LS(LBKT)  &kp BSLASH                             &kp LS(N3)  &kp RBKT      &kp F12        &kp LS(COMMA)   &kp LS(N5)
-&kp GRAVE   &kp LS(N7)     &kp GRAVE   &kp LS(LBKT)  &kp BSLASH         &trans      &trans  &kp LS(N6)  &kp LS(RBKT)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp PLUS
-&kp LS(N1)  &kp LS(SLASH)  &trans      &trans        &kp BSLASH         &trans      &trans  &trans      &trans        &kp LS(COMMA)  &kp LS(PERIOD)  &kp SLASH
+&trans      &kp GRAVE        &kp DOLLAR       &kp LEFT_BRACE   &kp NON_US_BACKSLASH                    &kp HASH        &kp RBKT        &kp F12         &kp LESS_THAN    &kp PERCENT
+&kp GRAVE   &kp AMPERSAND    &kp GRAVE        &kp LEFT_BRACE   &kp NON_US_BACKSLASH  &trans  &trans      &kp CARET       &kp RIGHT_BRACE  &kp LESS_THAN    &kp GREATER_THAN &kp PLUS
+&kp EXCLAMATION  &kp QUESTION  &trans      &trans        &kp NON_US_BACKSLASH  &trans      &trans  &trans      &trans        &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
 &trans      &trans         &trans      &trans        &trans             &trans      &trans  &trans                                                   &trans
             >;
 
