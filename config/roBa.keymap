@@ -118,7 +118,7 @@
         NUM {
             bindings = <
 &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp N0                        &kp RBKT  &kp C_MUTE    &kp PAGE_UP    &kp PAGE_DOWN  &kp BACKSPACE
-&none      &kp N4  &kp N5  &kp N6  &kp EQUAL     &trans  &trans  &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT      &kp SEMICOLON
+&none      &kp N4  &kp N5  &kp N6  &kp EQUAL     &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW         &kp RIGHT_ARROW      &kp SEMICOLON
 &none      &kp N1  &kp N2  &kp N3  &kp MINUS     &trans  &trans  &kp LS(RBKT) &trans     &trans        &trans         &trans
 &kp BACKSPACE  &kp ESCAPE  &kp ESCAPE  &mt LEFT_WIN DELETE  &none  &trans  &trans  &kp ENTER  &trans
             >;
@@ -127,7 +127,7 @@
         ARROW {
             bindings = <
 &trans       &kp GRAVE      &kp LS(N4)    &kp LS(LBKT) &kp NON_US_BSLASH     &kp LS(N3)    &kp RBKT       &kp F12        &kp LS(COMMA)  &kp LS(N5)
-&kp GRAVE    &kp LS(N7)     &kp GRAVE     &kp LS(LBKT) &kp BSLASH            &trans   &trans          &kp LS(N6)     &kp RS(RBKT)    &kp LS(COMMA)  &kp LS(PERIOD) &kp PLUS
+&kp GRAVE    &kp LS(N7)     &kp GRAVE     &kp LS(LBKT) &kp BSLASH            &trans   &trans          &kp LS(N6)     &kp LS(RBKT)    &kp LS(COMMA)  &kp LS(PERIOD) &kp PLUS
 &kp LS(N1)   &kp LS(SLASH)  &trans        &trans       &kp BSLASH            &trans   &trans          &trans         &trans          &kp LS(COMMA)  &kp LS(PERIOD) &kp SLASH
 &trans       &trans         &trans        &trans       &trans                 &trans   &trans          &trans                              &trans
             >;
