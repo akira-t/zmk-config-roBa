@@ -123,17 +123,17 @@
             bindings = <
 &kp GRAVE      &kp N7      &kp N8      &kp N9               &kp N0                         &kp RBKT      &kp C_MUTE  &kp PAGE_UP  &kp PAGE_DOWN  &kp BACKSPACE
 &none          &kp N4      &kp N5      &kp N6               &kp EQUAL  &trans      &trans  &kp LEFT      &kp DOWN    &kp UP       &kp RIGHT      &kp SEMICOLON
-&none          &kp N1      &kp N2      &kp N3               &kp MINUS  &trans      &trans  &kp LS(RBKT)  &trans      &trans       &trans         &trans
+&none          &kp N1      &kp N2      &kp N3               &kp MINUS  &trans      &trans  &kp LS(RBKT)  &mkp MB3    &mkp MB1     &mkp MB2       &trans
 &kp BACKSPACE  &kp ESCAPE  &kp ESCAPE  &mt LEFT_WIN DELETE  &none      &trans      &trans  &kp ENTER                                             &trans
             >;
         };
 
         ARROW {
             bindings = <
-&trans           &kp GRAVE      &kp DOLLAR  &kp LEFT_BRACE  &kp NON_US_BACKSLASH                      &kp HASH   &kp RBKT         &kp F12        &kp LESS_THAN     &kp PERCENT
-&kp GRAVE        &kp AMPERSAND  &kp GRAVE   &kp LEFT_BRACE  &kp NON_US_BACKSLASH  &trans      &trans  &kp CARET  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp PLUS
-&kp EXCLAMATION  &kp QUESTION   &trans      &trans          &kp NON_US_BACKSLASH  &trans      &trans  &trans     &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
-&trans           &trans         &trans      &trans          &trans                &trans      &trans  &trans                                                       &trans
+&trans       &kp LS(N2)     &kp LS(MINUS)     &kp LS(N8)      &kp LS(EQUAL)                           &kp LS(LBKT)     &kp LS(N9)       &kp LS(INT3)     &kp LS(SQT)      &kp LS(N5)
+&kp LBKT     &kp LS(N7)     &kp LS(N4)        &kp RBKT        &kp LS(INT1)       &trans  &trans        &kp LS(N3)       &kp NUHS         &kp F12          &kp LS(SEMICOLON) &kp SEMICOLON
+&kp LS(N1)   &kp LS(SLASH)  &kp EQUAL         &kp LS(RBKT)    &kp INT1           &trans  &trans        &kp LS(N6)       &kp LS(NUHS)     &kp LS(COMMA)    &kp LS(DOT)       &kp SLASH
+&trans       &trans         &trans            &trans          &trans              &trans  &trans        &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
