@@ -62,6 +62,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        ctrl-a {
+            bindings = <&kp LC(A)>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
@@ -98,8 +103,8 @@
             bindings = <
 &kp TAB             &kp W           &mt LEFT_ALT E  &kp R            &kp T                                                 &kp Y        &kp U  &kp I               &kp O               &lt 1 P
 &mt LEFT_CONTROL A  &kp S           &kp D           &kp F            &kp G               &mo 5            &mo 7            &kp H        &kp J  &kp K               &kp L               &lt 2 ENTER
-&mt LEFT_SHIFT Z    &kp X           &kp C           &kp V            &kp B               &trans           &trans           &kp N        &kp M  &mt LEFT_ALT COMMA  &mt LEFT_SHIFT DOT  &lt 3 MINUS
-&kp Q               &kp LEFT_SHIFT  &kp LEFT_ALT    &lt 6 BACKSPACE  &mt LEFT_WIN LANG2  &lt 3 SPACE      &kp RIGHT_SHIFT  &lt 2 LANG1                                                 &mt RIGHT_WIN SLASH
+&mt LEFT_SHIFT Z    &kp X           &kp C           &kp V            &kp B               &trans           &trans           &kp N        &kp M  &mt LEFT_ALT COMMA  &mt LEFT_SHIFT DOT  &lt 5 MINUS
+&kp Q               &kp LEFT_SHIFT  &kp LEFT_ALT    &lt 6 BACKSPACE  &mt LEFT_WIN LANG2  &lt 3 SPACE      &kp RIGHT_SHIFT  &lt 2 LANG1                                                 &lt 7 RG(SLASH)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -125,10 +130,10 @@
 
         ARROW {
             bindings = <
-&trans      &kp GRAVE        &kp DOLLAR       &kp LEFT_BRACE   &kp NON_US_BACKSLASH                    &kp HASH        &kp RBKT        &kp F12         &kp LESS_THAN    &kp PERCENT
-&kp GRAVE   &kp AMPERSAND    &kp GRAVE        &kp LEFT_BRACE   &kp NON_US_BACKSLASH  &trans  &trans      &kp CARET       &kp RIGHT_BRACE  &kp LESS_THAN    &kp GREATER_THAN &kp PLUS
-&kp EXCLAMATION  &kp QUESTION  &trans      &trans        &kp NON_US_BACKSLASH  &trans      &trans  &trans      &trans        &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
-&trans      &trans         &trans      &trans        &trans             &trans      &trans  &trans                                                   &trans
+&trans           &kp GRAVE      &kp DOLLAR  &kp LEFT_BRACE  &kp NON_US_BACKSLASH                      &kp HASH   &kp RBKT         &kp F12        &kp LESS_THAN     &kp PERCENT
+&kp GRAVE        &kp AMPERSAND  &kp GRAVE   &kp LEFT_BRACE  &kp NON_US_BACKSLASH  &trans      &trans  &kp CARET  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp PLUS
+&kp EXCLAMATION  &kp QUESTION   &trans      &trans          &kp NON_US_BACKSLASH  &trans      &trans  &trans     &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
+&trans           &trans         &trans      &trans          &trans                &trans      &trans  &trans                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -164,6 +169,15 @@
         };
 
         BOOST {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
