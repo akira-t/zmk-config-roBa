@@ -151,7 +151,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         SCROLL {
