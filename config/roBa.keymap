@@ -98,7 +98,7 @@
             bindings = <
 &kp TAB             &mt LEFT_SHIFT W  &mt LEFT_ALT E  &kp R                 &kp T                                                 &kp Y        &kp U  &kp I               &kp O               &lt 3 P
 &mt LEFT_CONTROL A  &kp S             &kp D           &kp F                 &kp G               &mo 6            &mo 7            &kp H        &kp J  &kp K               &kp L               &lt 7 ENTER
-&mt LEFT_SHIFT Z    &kp X             &kp C           &kp V                 &kp B               &trans           &trans           &kp N        &kp M  &mt LEFT_ALT COMMA  &mt LEFT_SHIFT DOT  &lt 6 B
+&mt LEFT_SHIFT Z    &kp X             &kp C           &kp V                 &kp B               &trans           &trans           &kp N        &kp M  &mt LEFT_ALT COMMA  &mt LEFT_SHIFT DOT  &lt 6 MINUS
 &kp Q               &kp LEFT_SHIFT    &kp LEFT_ALT    &bspc_bt 8 BACKSPACE  &mt LEFT_WIN LANG2  &lt 5 SPACE      &kp RIGHT_SHIFT  &lt 4 LANG1                                                 &lt 7 LG(SLASH)
             >;
 
@@ -109,7 +109,7 @@
             bindings = <
 &kp TAB             &kp Y           &mt LEFT_ALT U  &kp MINUS             &kp DOT                                         &kp F        &kp W  &kp R           &kp L             &lt 3 P
 &mt LEFT_CONTROL E  &kp I           &kp A           &kp O                 &kp COMMA           &mo 6            &mo 7      &kp K        &kp T  &kp N           &kp S             &lt 7 H
-&mt LEFT_SHIFT Z    &kp X           &kp C           &kp V                 &kp SEMICOLON       &kp H            &kp B      &kp G        &kp D  &mt LEFT_ALT M  &mt LEFT_SHIFT J  &lt 6 B
+&mt LEFT_SHIFT Z    &kp X           &kp C           &kp V                 &kp SEMICOLON       &none            &none      &kp G        &kp D  &mt LEFT_ALT M  &mt LEFT_SHIFT J  &lt 6 B
 &kp Q               &kp LEFT_SHIFT  &kp LEFT_ALT    &bspc_bt 8 BACKSPACE  &mt LEFT_WIN LANG2  &lt 5 SPACE      &kp ENTER  &lt 4 LANG1                                           &lt 7 LG(SLASH)
             >;
 
