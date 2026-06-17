@@ -57,6 +57,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
         };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
@@ -158,7 +163,7 @@
             bindings = <
 &trans      &kp LS(N2)     &kp LS(MINUS)  &kp LS(N8)    &kp LS(EQUAL)                            &kp LS(LBKT)       &kp LS(N9)    &kp LS(INT3)   &kp LS(SQT)        &kp LS(N5)
 &kp LBKT    &kp LS(N7)     &kp LS(N4)     &kp RBKT      &kp LS(INT1)         &trans      &trans  &kp LS(N3)         &kp NUHS      &kp F12        &kp LS(SEMICOLON)  &kp SEMICOLON
-&kp LS(N1)  &kp LS(SLASH)  &kp EQUAL      &kp LS(RBKT)  &kp INTERNATIONAL_3  &trans      &trans  &kp LS(N6)         &kp LS(NUHS)  &kp LS(COMMA)  &kp LS(DOT)        &kp SLASH
+&kp LS(N1)  &kp LS(SLASH)  &kp EQUAL      &kp LS(RBKT)  &kp INTERNATIONAL_3  &trans      &trans  &kp LS(N6)         &kp LS(NUHS)  &kp LS(COMMA)  &kp LS(DOT)        &kp MINUS
 &trans      &trans         &trans         &trans        &trans               &trans      &trans  &kp RIGHT_COMMAND                                                  &trans
             >;
 
